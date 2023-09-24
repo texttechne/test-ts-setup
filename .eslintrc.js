@@ -6,6 +6,7 @@ module.exports = {
   },
   rules: {
     'prettier/prettier': 'error',
+    '@typescript-eslint/no-empty-interface': 0,
   },
   plugins: ['@typescript-eslint', 'prettier'],
 }
